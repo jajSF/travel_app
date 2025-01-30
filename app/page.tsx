@@ -14,9 +14,11 @@ export default function Home() {
     //}
   }, [appRef]);
   return (
-    <main className="app" id="app" ref={appRef}>
-      <CustomCursor />
-      <div className="g1"></div>
-    </main>
+    <>
+      <main className="app" id="app" ref={appRef}>
+        <CustomCursor />
+        <div className="g1"></div>
+      </main>
+    </>
   );
 }
