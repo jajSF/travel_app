@@ -15,9 +15,12 @@ export default function Home() {
   }, [appRef]);
   return (
     <>
-      <main className="app" id="app" ref={appRef}>
-        <CustomCursor />
-        <div className="g1"></div>
+      <main>
+        <div className="app" id="app" ref={appRef}>
+          <CustomCursor />
+          <div className="g1"></div>
+          <h1 className="text-bold text-teal-500">Hello World</h1>
+        </div>
       </main>
     </>
   );
