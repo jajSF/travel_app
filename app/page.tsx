@@ -19,7 +19,7 @@ export default function Home() {
         <div className="app" id="app" ref={appRef}>
           <CustomCursor />
           <div className="g1"></div>
-          <h1 className="text-bold text-teal-500">Hello World</h1>
+          <h1 className="font-bold text-teal-500 text-2xl">Hello World</h1>
         </div>
       </main>
     </>
