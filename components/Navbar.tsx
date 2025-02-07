@@ -17,7 +17,7 @@ const Navbar = () => {
           <Link
             href={link.href}
             key={link.key}
-            className="regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:text-teal-500"
+            className="regular-16 text-gray-20 flexCenter cursor-pointer pb-1.5 transition-all hover:text-SFgreen-light"
           >
             {link.label}
           </Link>
@@ -31,6 +31,13 @@ const Navbar = () => {
           variant="btn_dark_green"
         />
       </div>
+      <Image
+        src={"/menu.svg"}
+        alt="menu"
+        width={32}
+        height={32}
+        className="inline-block cursor-pointer lg:hidden"
+      />
     </nav>
   );
 };

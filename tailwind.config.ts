@@ -29,6 +29,7 @@ module.exports = {
         green: {
           50: '#30AF5B',
           90: '#292C27',
+          20: '#AFC927'
         },
         SFgreen:{
           light: "#AFC927"
@@ -45,6 +46,7 @@ module.exports = {
         },
         blue: {
           70: '#021639',
+          sf1: '#107FC2'
         },
         yellow: {
           50: '#FEC601',

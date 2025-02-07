@@ -16,8 +16,7 @@ export default function Home() {
   return (
     <>
       <main>
-        <div className="app" id="app" ref={appRef}>
-          <CustomCursor />
+        <div>
           <div className="g1"></div>
           <h1 className="font-bold text-teal-500 text-2xl">Hello World</h1>
         </div>
@@ -25,3 +24,4 @@ export default function Home() {
     </>
   );
 }
+/*  className="app" id="app" ref={appRef}*/
