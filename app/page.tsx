@@ -1,6 +1,10 @@
 "use client";
+import AboutSF from "@/components/AboutSF";
+import CallForAction from "@/components/CallForAction";
 import CustomCursor from "@/components/CustomCursor";
 import GrainyBackground from "@/components/GrainyBackground";
+import Hero from "@/components/Hero";
+import Product3D from "@/components/Product3D";
 import { useEffect, useRef } from "react";
 
 export default function Home() {
@@ -15,12 +19,10 @@ export default function Home() {
   }, [appRef]);
   return (
     <>
-      <main>
-        <div>
-          <div className="g1"></div>
-          <h1 className="font-bold text-teal-500 text-2xl">Hello World</h1>
-        </div>
-      </main>
+      <Hero />
+      <AboutSF />
+      <Product3D />
+      <CallForAction />
     </>
   );
 }

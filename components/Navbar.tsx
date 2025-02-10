@@ -10,7 +10,7 @@ const Navbar = () => {
   padding-container relative z-30 py-5"
     >
       <Link href="/">
-        <Image src="/SFLogo.svg" alt="SureFlow" width={120} height={80} />
+        <Image src="/SFLogo.svg" alt="SureFlow" width={120} height={120} />
       </Link>
       <ul className="hidden h-full gap-12 lg:flex">
         {NAV_LINKS.map((link) => (
